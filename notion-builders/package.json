@@ -1,0 +1,15 @@
+{
+  "name": "notion-template-builders",
+  "version": "1.0.0",
+  "description": "Scripts to programmatically build Notion productivity templates via the API",
+  "type": "module",
+  "scripts": {
+    "build:control-tower": "node src/build-control-tower.js",
+    "build:decision-canvas": "node src/build-decision-canvas.js",
+    "build:personal-os": "node src/build-personal-os.js",
+    "build:all": "node src/build-all.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.0"
+  }
+}
